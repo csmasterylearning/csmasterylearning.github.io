@@ -9,6 +9,6 @@ linkedinurl: "https://www.linkedin.com/in/andrea-gallidabino"
 twitter: "AGallidabino"
 website: "https://www.inf.usi.ch/phd/gallidabino/"
 promoted: true
-weight: 2
+weight: 5
 ---
 

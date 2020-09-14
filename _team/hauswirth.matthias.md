@@ -9,6 +9,6 @@ linkedinurl: "https://www.linkedin.com/in/matthiashauswirth/"
 twitter: "mathau"
 website: "http://www.inf.usi.ch/faculty/hauswirth"
 promoted: true
-weight: 1
+weight: 2
 ---
 
