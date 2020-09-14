@@ -1,0 +1,18 @@
+[
+
+  {
+    "title": "Sample Videos",
+    "description": "We recorded and document real instances of mastery learning sessions. Hopefully they can be useful to start your own sessions.",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  },
+  {
+    "title": "Mastery Learning Types",
+    "description": "In this website we collected multiple types of real Mastery Learning that we refined during our own courses.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Lesson Learned",
+    "description": "We want to plant the seeds for a community of practice on Mastery Learning for Programming Courses, by making our lessons learned and resources available in an easily adoptable way.",
+    "image": "images/features/noun_The Process_1885341.svg"
+  }
+]

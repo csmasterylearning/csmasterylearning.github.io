@@ -1,8 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Mastery Learning in CS Education
+description: We want to plant the seeds for a community of practice on Mastery Learning for Programming Courses, by making our lessons learned and resources available in an easily adoptable way.
+intro_image: "images/illustrations/pointing.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
 ---
 
 

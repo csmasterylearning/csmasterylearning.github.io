@@ -19,16 +19,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   We want to plant the seeds for a community of practice on Mastery Learning for Programming Courses, by making our lessons learned and resources available in an easily adoptable way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: LuCEresearchlab
-# github_username:  jekyll
 github: [metadata]
 
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -41,3 +36,53 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Theme: 
+permalink: pretty
+
+google_analytics_id: null
+homepage:
+  show_call_box: true
+# logo:
+  # mobile: "images/logo/logo-mobile.svg"
+  # desktop: "images/logo/logo.svg"
+  # desktop_height: "36px"
+footer:
+  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+
+seo:
+  meta_og_title: "Mastery Learning in CS Education"
+  meta_og_type: "website"
+  meta_og_url: "https://csmasterylearning.github.io/"
+  # meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta_og_description: "We want to plant the seeds for a community of practice on Mastery Learning for Programming Courses, by making our lessons learned and resources available in an easily adoptable way."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@LuCEresearchlab"
+  meta_twitter_creator: "@LuCEresearchlab"
+
+collections:
+  masteries:
+    output: true
+    permalink: /masteries/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+
+defaults:
+  - scope:
+      type: masteries
+    values:
+      layout: mastery
+      bodyClass: page-masteries-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-environment-variables
